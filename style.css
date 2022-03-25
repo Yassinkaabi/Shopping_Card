@@ -1,0 +1,66 @@
+body{
+    background-color: pink;
+}
+.container{
+    margin: auto;
+    margin-top: 20px;
+    /* border: 3px solid black; */
+    padding-left: 8%;
+}
+.col-md-, .col-lg-4{
+    margin-bottom: 20px;
+}
+.sty{
+    font-size: 18px !important;
+    color: black !important;
+}
+.num{
+    width: 80px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+.uk-border-circle{
+    width: 100px !important;
+    height: 100px !important;
+}
+.fa-cart-arrow-down{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.heart-btn{
+  position: absolute;
+  top: 79%;
+  left: 68%;
+  transform: translate(-50%,-50%);
+}
+.like-btn {
+  display: inline-block;
+  Cursor: pointer;
+}
+.like-btn {
+  position: absolute;
+  background: url('twitter-heart.png');
+  width: 90px;
+  height: 90px;
+  background-size: 2900%;
+  background-repeat: no-repeat;
+}
+.is-active {
+  animation-name: animate;
+  animation-duration: .8s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(28);
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate {
+  0%   { background-position: left;  }
+  50%  { background-position: right; }
+  100% { background-position: right; }
+}
